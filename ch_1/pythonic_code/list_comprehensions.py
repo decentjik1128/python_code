@@ -1,9 +1,9 @@
 #List Comprehension
-result=[i for i in range(10)]
+result = [i for i in range(10)]
 print(result)
 
 #조건을 만족할 때만 추가
-result=[i for i in range(10) if i%2 == 0]
+result = [i for i in range(10) if i%2 == 0]
 print(result)
 
 #이중 for문 방식
