@@ -18,6 +18,14 @@ e = [ i for i in range(10) if i % 2 == 0]
 print(e)
 print()
 
-z = [i * j for i in range(2, 10) for j in range(1, 10)]
+x = [i * j for i in range(2, 10) for j in range(1, 10)]
+print(x)
+print()
+
+y = [[0 for j in range(2)] for i in range(3)]
+print(y)
+print()
+
+z = [[0] * 2 for i in range(3)]
 print(z)
 print()
